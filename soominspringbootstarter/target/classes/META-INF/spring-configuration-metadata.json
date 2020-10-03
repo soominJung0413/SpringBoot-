@@ -1,0 +1,23 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "me.soomin.HolomanProperties",
+      "name": "holoman",
+      "type": "me.soomin.HolomanProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "me.soomin.HolomanProperties",
+      "defaultValue": 0,
+      "name": "holoman.how-long",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "me.soomin.HolomanProperties",
+      "name": "holoman.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
