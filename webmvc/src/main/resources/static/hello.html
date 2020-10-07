@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="/webjars/vue/2.5.16/vue.js"></script>
+Hello Static Resource
+
+<div class="app">
+    <my-comp></my-comp>
+</div>
+</body>
+
+<script>
+    Vue.component(
+        'my-comp',{template:'<h2>Hello Vue.js</h2>'}
+    );
+    new Vue({
+        el:'.app'
+    });
+</script>
+</html>
